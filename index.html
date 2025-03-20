@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="loading-screen">
+        <div class="spinner"><img src="spinner.gif" alt=""></div>
+        <p>ロード中...</p>
+    </div>
     <header>数字あてゲーム</header>
     <main>
-
         <section class="game">
-            <input type="text" placeholder="ここに数字を入力" class="textform">
-            <input type="submit" value="チェック！" class="submitbutton">
+            <div class="naiyou">
+                <input type="text" placeholder="ここに数字を入力" class="textform">
+                <input type="submit" value="チェック！" class="submitbutton">
+            </div>
             <div class="kekka"></div>
+            <button class="reloadbutton" style="display:none;"><img src="reloadicon.png" alt=" " class="reloadicon">もう一度遊ぶ</button>
         </section>
     </main>
     <footer>made by 石川プログラム道場</footer>
